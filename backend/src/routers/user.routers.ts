@@ -7,7 +7,7 @@ import { logoutUser, userLogin, getAccessTokenAndRefreshToken, getLoggedInUser, 
 
 const router = Router();
 
-router.route('signup').post(userSignup)
+router.route('/signup').post(userSignup)
 router.route("/login").post(userLogin)
 
 // secured routes
